@@ -1,7 +1,10 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Home() {
-  return (
-    <div>Hello World!</div>
-  )
+    return (
+        <div>
+            <div>Nishyan</div>
+            <div className="text-[13px]">Visit store</div>
+        </div>
+    );
 }
