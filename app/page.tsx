@@ -1,10 +1,12 @@
-import Image from 'next/image';
+import NavBar from "./components/NavBar";
+import Wrapper from "./components/Wrapper";
 
 export default function Home() {
     return (
-        <div>
-            <div>Nishyan</div>
-            <div className="text-[13px]">Visit store</div>
-        </div>
+        <Wrapper>
+            <div className="w-[224px] h-full">
+                <NavBar />
+            </div>
+        </Wrapper>
     );
 }

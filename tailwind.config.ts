@@ -8,7 +8,7 @@ const config: Config = {
     ],
     theme: {
         colors: {
-            'side-bar-background-color': ''
+            'nav-bar-background-color': '#1E2640'
         }
     },
     plugins: []
