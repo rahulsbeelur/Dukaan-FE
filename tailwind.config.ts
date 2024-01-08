@@ -8,8 +8,9 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      'side-bar-color': ''
+      'side-bar-background-color': ''
     }
   },
+  plugins: [],
 }
 export default config
