@@ -38,7 +38,7 @@ const NavBar = () => {
                     <NavButton />
                 </div>
             </div>
-            <div className="flex justify-center w-[192px] mx-auto">
+            <div className="flex justify-center w-[192px] mx-auto mt-auto">
                 <div className="bg-[#353C53] flex gap-3 px-3 py-[6px] rounded w-full">
                     <div className="p-[6px] bg-[#FFFFFF1A] rounded h-[36px] my-auto">
                         <div className="text-[#FFFFFF] fill-current text-white h-full flex justify-center">

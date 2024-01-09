@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <Wrapper>
             <div className="flex">
-                <div className="w-[224px] h-full">
+                <div className="w-[224px]">
                     <NavBar />
                 </div>
                 <div className="w-full">
