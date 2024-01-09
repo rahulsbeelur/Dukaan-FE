@@ -16,7 +16,7 @@ const Header = () => {
                             height={100}
                             className="w-[14px] h-[14px] text-[#FFFFFF]"
                             src={Help}
-                            alt="wallet icon"
+                            alt="help icon"
                         />
                     </div>
                     <div className="text-[#4D4D4D] font-[400] leading-4 text-[12px] my-auto">
@@ -32,7 +32,7 @@ const Header = () => {
                             height={100}
                             className="w-[14px] h-[14px] text-[#FFFFFF]"
                             src={Search}
-                            alt="wallet icon"
+                            alt="search icon"
                         />
                     </div>
                     <div className="text-[#808080] font-[400] leading-[22px] text-[15px]">
