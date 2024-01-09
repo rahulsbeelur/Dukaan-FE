@@ -32,7 +32,12 @@ const NavButton = () => {
         <>
             <div className="flex flex-col gap-1">
                 {NavBarButton.map((button) => (
-                    <div className="flex gap-3 px-4 py-2 w-[208px]" key={button.alt}>
+                    <div
+                        className={
+                            `flex gap-3 px-4 py-2 w-[208px] ml-[-2px] ` +
+                            (button.alt === 'Payments' ? 'bg-[#FFFFFF] bg-opacity-10 rounded' : '')
+                        }
+                        key={button.alt}>
                         <div>
                             <Image
                                 width={100}
@@ -42,7 +47,7 @@ const NavButton = () => {
                                 alt={button.alt + ' icon'}
                             />
                         </div>
-                        <div className="text-[#FFFFFF] opacity-[80%] font-[500] leading-5 text-[14px]">
+                        <div className={`text-[#FFFFFF] font-[500] leading-5 text-[14px] ` + (button.alt !== 'Payments' ? 'opacity-[80%]' : '')}>
                             {button.alt} {/* Display button.alt as text content */}
                         </div>
                     </div>
