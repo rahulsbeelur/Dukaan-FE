@@ -47,7 +47,11 @@ const NavButton = () => {
                                 alt={button.alt + ' icon'}
                             />
                         </div>
-                        <div className={`text-[#FFFFFF] font-[500] leading-5 text-[14px] ` + (button.alt !== 'Payments' ? 'opacity-[80%]' : '')}>
+                        <div
+                            className={
+                                `text-[#FFFFFF] font-[500] leading-5 text-[14px] ` +
+                                (button.alt !== 'Payments' ? 'opacity-[80%]' : '')
+                            }>
                             {button.alt} {/* Display button.alt as text content */}
                         </div>
                     </div>
